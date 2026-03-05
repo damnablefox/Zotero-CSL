@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" default-locale="zh-CN"
+  name-as-sort-order="all" sort-separator=" " demote-non-dropping-particle="never"
+  initialize-with=" " initialize-with-hyphen="false" page-range-format="expanded">
+
+<info>
+  <id>8ba08b4a-32bc-474d-bef5-7a41c9b0abbc</id>
+  <title xml:lang="zh-CN">中国国家标准 GB/T 7714-2025 (顺序编码制，中文)</title>
+  <title-short xml:lang="zh-CN">国家标准 GB/T 7714-2025 顺序编码制</title-short>
+  <summary xml:lang="zh-CN">中华人民共和国国家标准 GB/T 7714-2025 信息与文献 参考文献著录规则，顺序编码制风格。</summary>
+  <author>
+    <name>昌伟豪</name>
+    <email>damnablefox@163</email>
+    <uri>https://space.bilibili.com/23713172</uri>
+  </author>
+  <contributor>
+    <name>昌伟豪</name>
+    <email>damnablefox@163</email>
+    <uri>https://space.bilibili.com/23713172</uri>
+  </contributor>
+  <category citation-format="numeric"/>
+  <category field="generic-base"/>
+  <link href="https://std.samr.gov.cn/gb/search/gbDetailed?id=4507EFE13D37CB6AE06397BE0A0A601F" rel="self" xml:lang="zh-CN"/>
+  <link href="https://std.samr.gov.cn/gb/search/gbDetailed?id=4507EFE13D37CB6AE06397BE0A0A601F" rel="documentation" xml:lang="zh-CN"/>
+  <rights license="https://creativecommons.org/licenses/by-sa/4.0/" xml:lang="zh-CN">本作品根据 CC BY-SA 4.0 许可协议进行授权。</rights>
+  <published>2026-03-04T23:30:42+08:00</published>
+  <updated>2026-03-05T00:04:20+08:00</updated>
+</info>
+
+<locale></locale>
+
+<macro></macro>
+
+<citation>
+  <sort></sort>
+  <layout></layout>
+</citation>
+
+<bibliography>
+  <sort></sort>
+  <layout></layout>
+</bibliography>
+
+</style>

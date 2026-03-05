@@ -1,0 +1,94 @@
+1. 核心目录结构
+
+my-zotero-plugin/
+├── manifest.json                # 核心配置文件
+├── bootstrap.js                 # 插件启动文件
+├── src/                         # 插件核心代码目录
+│   ├── modules/                # 模块代码目录
+│   │   └── submodules.js      # 子模块文件
+│   └── MyZoteroPluginStu.js    # 主模块文件
+├── content/                     # 插件界面目录
+│   ├── ui.html              # 用户界面 html 文件
+│   ├── js/                     # 用户界面 js   目录
+│   │   └── ui.js           # 用户界面 js   文件
+│   └── css/                    # 用户界面 css  目录
+│   │   └── ui.css          # 用户界面 css  文件
+├── locales/                     # 国际化文件目录
+│   ├── zh-CN/
+│   └── en-US/
+├── icons/                # 插件图标
+├── tests/                # 测试文件目录
+└── build/                # 构建输出目录
+
+
+
+
+.
+|-- .github/                  # github 配置
+|-- .vscode/                  # vscode 配置
+|-- addon                     # 静态文件
+|   |-- bootstrap.js
+|   |-- content
+|   |   |-- icons
+|   |   |   |-- favicon.png
+|   |   |   `-- favicon@0.5x.png
+|   |   |-- preferences.xhtml
+|   |   `-- zoteroPane.css
+|   |-- locale
+|   |   |-- en-US
+|   |   |   |-- addon.ftl
+|   |   |   |-- mainWindow.ftl
+|   |   |   `-- preferences.ftl
+|   |   `-- zh-CN
+|   |       |-- addon.ftl
+|   |       |-- mainWindow.ftl
+|   |       `-- preferences.ftl
+|   |-- manifest.json
+|   `-- prefs.js
+|-- build                         # 构建目录
+|-- node_modules
+|-- src                           # 脚本源代码
+|   |-- addon.ts                  # 基类
+|   |-- hooks.ts                  # 生命周期钩子
+|   |-- index.ts                  # 主入口
+|   |-- modules                   # 子模块
+|   |   |-- examples.ts
+|   |   `-- preferenceScript.ts
+|   `-- utils                     # 工具
+|       |-- locale.ts
+|       |-- prefs.ts
+|       |-- wait.ts
+|       |-- window.ts
+|       `-- ztoolkit.ts
+|-- typings                   # ts 类型定义
+|   `-- global.d.ts
+
+|-- .env                      # 环境配置 (切勿提交至仓库)
+|-- .env.example              # 环境配置模板，https://github.com/northword/zotero-plugin-scaffold
+|-- .gitignore                # git 配置
+|-- .gitattributes            # git 配置
+|-- .prettierrc               # prettier 配置，https://prettier.io/
+|-- eslint.config.mjs         # eslint 配置，https://eslint.org/
+|-- LICENSE
+|-- package-lock.json
+|-- package.json
+|-- tsconfig.json             # typescript 配置，https://code.visualstudio.com/docs/languages/jsconfig
+|-- README.md
+`-- zotero-plugin.config.ts   # 脚手架配置，https://github.com/northword/zotero-plugin-scaffold
+
+请分析这个Zotero插件模板项目，重点关注：
+
+1. 展示项目的完整文件结构
+2. 解释每个目录的职责：
+   - 哪些目录存放核心逻辑？
+   - 哪些目录存放UI组件？
+   - 哪些目录处理Zotero集成？
+3. 配置文件分析：
+   - 构建配置
+   - 插件清单配置
+   - 依赖管理
+4. 模板的关键特性：
+   - 如何添加新的功能模块？
+   - 如何修改插件界面？
+   - 如何调试插件？
+5. 从模板到可发布插件的完整流程
